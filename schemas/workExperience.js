@@ -3,9 +3,14 @@ export default {
     title:'Work Experience',
     type:'document',
     fields:[
+            {   
+                name:'dates',
+                title:'Dates',
+                type:'string'
+            },
            {   
-                name:'name',
-                title:'name',
+                name:'position',
+                title:'Position',
                 type:'string'
             },
             {
